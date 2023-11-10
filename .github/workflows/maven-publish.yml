@@ -14,7 +14,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -name: clone my repository
-            run: echo " i am learning  aws Devops " 
+
+             run: echo " i am learning  aws Devops " 
 
        
     mysecondjob:
