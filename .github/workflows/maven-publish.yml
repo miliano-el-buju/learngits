@@ -13,18 +13,14 @@ jobs:
     myfirstjob: 
         runs-on: ubuntu-latest
         steps:
-            -name: clone my repository
+            name: clone my repository
 
-             run: echo " i am learning  aws Devops " 
-
+            run: echo " i am learning  aws Devops "
        
     mysecondjob:
         runs-on: ubuntu-latest
         needs: myfirstjob
         steps:
-            -name: learn the github action step 
+            name: learn github actions step 
 
-             run: echo "this is my second job step one " 
-
-
-   
+            run: echo "this is my second job step one " 
